@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Help - HopeLink Foundation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo-container">
+                <div class="logo-icon">HL</div>
+                <div class="logo-text">HopeLink <span>FOUNDATION</span></div>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Programs</a></li>
+                    <li><a href="get-help.html" class="active">Get Help</a></li>
+                    <li><a href="get-involved.html">Get Involved</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="get-involved.html" class="btn-donate-nav">Donate</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-banner" style="background-image: url('https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&w=1200&q=80'); padding: 60px 40px;">
+            <div class="hero-content">
+                <span>Support Request</span>
+                <h1>We are here to listen.</h1>
+                <p>Fill out the form and we will reach out to you soon. Please share only information you are comfortable sharing.</p>
+            </div>
+        </section>
+
+        <section style="background: var(--bg-light); border: 1px solid var(--border-color); border-radius: 8px; padding: 40px; margin-bottom: 50px;">
+            <form action="#" method="POST" onsubmit="alert('Thank you! Your request has been submitted successfully.'); return false;">
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Full Name *</label>
+                        <input type="text" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number *</label>
+                        <input type="tel" placeholder="Enter your phone number" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Email Address (Optional)</label>
+                        <input type="email" placeholder="Enter your email address">
+                    </div>
+                    <div class="form-group">
+                        <label>Current Location *</label>
+                        <input type="text" placeholder="City, Town or Village" required>
+                    </div>
+                </div>
+
+                <h3 style="color: var(--primary-blue); font-size: 1.1rem; margin: 30px 0 15px 0;">WHAT SUPPORT DO YOU NEED?</h3>
+
+                <div class="form-group">
+                    <label>Select Main Topic *</label>
+                    <select required>
+                        <option value="">Select an option</option>
+                        <option value="education">Education Support</option>
+                        <option value="food">Food & Essential Needs</option>
+                        <option value="health">Healthcare Support</option>
+                        <option value="admin">Administrative Support</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Please Describe Your Situation *</label>
+                    <textarea placeholder="Briefly describe what you need help with..." required></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Preferred Way to be Contacted</label>
+                        <select>
+                            <option value="phone">Phone Call</option>
+                            <option value="sms">SMS Text</option>
+                            <option value="email">Email</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Preferred Time to be Contacted</label>
+                        <input type="text" placeholder="e.g. Mornings, Afternoons">
+                    </div>
+                </div>
+
+                <div class="form-group" style="display: flex; align-items: center; gap: 10px; margin-top: 15px;">
+                    <input type="checkbox" id="consent" required style="width: auto;">
+                    <label for="consent" style="margin-bottom: 0; font-weight: normal; color: var(--text-dark);">I give consent for HopeLink to process my request securely *</label>
+                </div>
+
+                <button type="submit" class="btn-primary" style="margin-top: 20px;">Submit Request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div>
+                <div class="logo-text" style="color: white; font-size: 1.3rem; margin-bottom: 10px;">HopeLink <span>FOUNDATION</span></div>
+                <p>Building stronger communities together across Sierra Leone.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Programs</a></li>
+                    <li><a href="get-help.html">Get Help</a></li>
+                    <li><a href="get-involved.html">Get Involved</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>+232 77 123 456<br>info@hopelink.org<br>Freetown, Sierra Leone</p>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <p>Facebook • Twitter • Instagram • LinkedIn</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 HopeLink Foundation. All rights reserved.</p>
+            <p>Together for a brighter tomorrow.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
